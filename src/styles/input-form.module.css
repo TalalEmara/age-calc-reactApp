@@ -1,0 +1,45 @@
+.inputForm{
+    /*background-color: white;*/
+    display: flex;
+    flex-direction: row;
+    border-bottom: darkgray 2px solid;
+}
+.inputSection{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: 1rem;
+    width: 15em;
+    background-color: white;
+
+    font-weight: bold;
+
+    color: gray;
+}
+.inputField{
+    font-weight: bold;
+    font-size: 3rem;
+    border-radius: .5rem;
+    margin-top: 0.5rem;
+
+    border-color: gray;
+
+}
+
+.inputError{
+    border-color: lightcoral !important;
+
+}
+.inputError:focus {
+    border-color: lightcoral;
+    outline: none; /* Optional: removes the default blue glow */
+}
+.error{
+    margin-top: .5rem;
+    color: lightcoral;
+    font-weight: normal;
+    font-style: italic;
+    font-size: .8rem;
+}

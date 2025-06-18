@@ -1,0 +1,11 @@
+.displayContainer{
+ /*background: white;*/
+ /*   border-bottom-right-radius: 15rem;*/
+}
+.displayText{
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 7rem;
+    margin: 0;
+}
