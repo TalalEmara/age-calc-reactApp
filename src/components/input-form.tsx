@@ -1,13 +1,18 @@
 import React, {FormEvent, Fragment, useState} from 'react';
 import styles from '../styles/input-form.module.css';
-
+import icon from '../styles/icon-arrow.svg';
 type InputErrors = {
     day?: string,
     month?: string,
     year?: string,
 }
 
-const InputForm = () => {
+type Props = {
+    onSubmit: (day: string, month: string, year: string) => void;
+};
+
+const InputForm = (props : Props) => {
+    const { onSubmit } = props;
     const [errors, setErrors] = useState<InputErrors>({});
     const [formData, setFormData] = useState({
         day: '',
@@ -135,6 +140,9 @@ const InputForm = () => {
         }, 0);
     };
 
+    const handleClick = () => {
+        onSubmit(formData.day, formData.month, formData.year); // Send to App
+    };
     return (
         <Fragment>
             <form className={styles.inputForm} onSubmit={submitHandle}>
@@ -180,7 +188,7 @@ const InputForm = () => {
                     {errors.year && <p className={styles.error}>{errors.year}</p>}
                 </div>
 
-                {/*<button type={"submit"}>Submit</button>*/}
+                <button  className={styles.submitButton} onClick={handleClick}><img src={icon} alt="icon" className="svg-img" /></button>
             </form>
         </Fragment>
     );

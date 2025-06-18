@@ -43,3 +43,25 @@
     font-style: italic;
     font-size: .8rem;
 }
+.svg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.submitButton{
+    position: relative;
+    top: 8rem;
+    right: 1rem;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    background-color: rebeccapurple;
+    padding: 10px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    z-index: 999;
+    box-shadow: darkgray 8px 5px 10px;
+}
+.submitButton:hover{
+    background-color: mediumpurple;
+}
