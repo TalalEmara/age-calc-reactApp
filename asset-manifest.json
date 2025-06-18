@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/age-calc-reactApp/static/css/main.ec03d47d.css",
+    "main.js": "/age-calc-reactApp/static/js/main.d2c0d55e.js",
+    "static/js/453.5f4edd20.chunk.js": "/age-calc-reactApp/static/js/453.5f4edd20.chunk.js",
+    "static/media/Poppins-Italic.ttf": "/age-calc-reactApp/static/media/Poppins-Italic.e373f6163127e2d469af.ttf",
+    "static/media/Poppins-ExtraBoldItalic.ttf": "/age-calc-reactApp/static/media/Poppins-ExtraBoldItalic.73d4495be63ad83b25cc.ttf",
+    "static/media/Poppins-Regular.ttf": "/age-calc-reactApp/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Bold.ttf": "/age-calc-reactApp/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "index.html": "/age-calc-reactApp/index.html",
+    "static/media/icon-arrow.svg": "/age-calc-reactApp/static/media/icon-arrow.76e952b1b427b84b83bd01f2f4822499.svg",
+    "main.ec03d47d.css.map": "/age-calc-reactApp/static/css/main.ec03d47d.css.map",
+    "main.d2c0d55e.js.map": "/age-calc-reactApp/static/js/main.d2c0d55e.js.map",
+    "453.5f4edd20.chunk.js.map": "/age-calc-reactApp/static/js/453.5f4edd20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec03d47d.css",
+    "static/js/main.d2c0d55e.js"
+  ]
+}
